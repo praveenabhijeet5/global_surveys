@@ -1,0 +1,212 @@
+/* COMP229 Group 5 
+Abdoullahi Isse
+Anne Mistry
+Nathaniel Needham
+Noah Mauro
+Praveen Tripathi*/
+
+
+
+input{
+  margin: 5px;
+  padding: 5px;
+}
+
+.radioDiv{
+  text-align: left;
+  margin-left: 38%;
+}
+
+.imageLogo{
+width: 60px;  
+margin-right: 20px;
+}
+
+#root{
+  background-color: rgb(208, 235, 217);
+}
+
+.SurveyCreation{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  min-height: 100vh;
+}
+
+.Answer{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  min-height: 100vh;
+}
+
+.ActiveSurveys{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  border-left: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  background-color: white;
+  min-height: 100vh;
+}
+
+.inline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.disagreeLabel{
+  margin-right: 25px;
+  color: rgb(185, 83, 83);
+}
+.agreeLabel{
+  margin-left: 25px;
+  color: rgb(88, 185, 83);
+}
+
+.surveyButtons{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.StronglyAgree{
+  
+  padding: 50px;
+  width: 65px;
+  height: 65px;
+  }
+.StronglyAgree:hover{
+  accent-color: darkgreen;
+}
+
+.StronglyAgree:checked{
+  accent-color: green;
+}
+.StronglyDisagree{
+  
+  padding: 50px;
+  width: 65px;
+  height: 65px;
+  }
+.StronglyDisagree:hover{
+  accent-color: darkred;
+}
+
+.StronglyDisagree:checked{
+  accent-color: red;
+}
+.Disagree{
+  
+  padding: 50px;
+  width: 50px;
+  height: 50px;
+  }
+.Disagree:hover{
+  accent-color: darkred;
+}
+
+.Disagree:checked{
+  accent-color: red;
+}
+.SomewhatDisagree{
+  
+  padding: 50px;
+  width: 35px;
+  height: 35px;
+  }
+.SomewhatDisagree:hover{
+  accent-color: darkred;
+}
+
+.SomewhatDisagree:checked{
+  accent-color: red;
+}
+.Neutral{
+  
+  padding: 50px;
+  width: 25px;
+  height: 25px;
+  }
+.Neutral:hover{
+  accent-color: rgb(107, 107, 107);
+}
+
+.Neutral:checked{
+  accent-color: darkgrey;
+}
+.SomewhatAgree{
+  
+  padding: 50px;
+  width: 35px;
+  height: 35px;
+  }
+.SomewhatAgree:hover{
+  accent-color: darkgreen;
+}
+
+.SomewhatAgree:checked{
+  accent-color: green;
+}
+.Agree{
+  
+  padding: 50px;
+  width: 50px;
+  height: 50px;
+  }
+.Agree:hover{
+  accent-color: darkgreen;
+}
+
+.Agree:checked{
+  accent-color: green;
+}
+
+.imageLogo{
+width: 50px;  
+border-radius: 50px;
+margin-right: 20px;
+}
+
+.nav-item :hover {
+  background-color: lightblue;
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.display-header {
+  text-align: center;
+  background-color: lightblue;
+}
+
+.center {
+  margin-left: 200px;
+  height: 300px;
+  display: block;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 80%;
+}
+
+.footer_layout {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.itemSpacing {
+  padding-left: 50px;
+  padding-right: 50px;
+}
